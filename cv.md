@@ -25,22 +25,31 @@
 ***
 ### Code example:
 
+**Even or Odd**: Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+```
+function even_or_odd(number) {
+  return number % 2 ? "Odd" : "Even";
+}
+```
+
 ***
 ### Projects:
 
+* [E-trans](https://irinkwink.github.io/methed_e-trans/)
+* [The Batman](https://irinkwink.github.io/methed_batman/)
 
 ***
 ### Courses:
 
-* Basic HTML and CSS in 10 days on [HTML Academy](https://htmlacademy.ru/) (completed)
-* [freeCodeCamp](https://www.freecodecamp.org/learn/) (in progress)
-    + Legacy Responsive Web Design
-    + JavaScript Algorithms and Data Structures
-* RS Schools Course [«JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
-* [CS50 video course](https://www.youtube.com/watch?v=NZxALvNlF-8&list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL) (in progress)
+* [**HTML Academy**](https://htmlacademy.ru/): Basic HTML and CSS in 10 days (completed)
+* [**freeCodeCamp**](https://www.freecodecamp.org/): 
+    + Legacy Responsive Web Design (in progress)
+    + JavaScript Algorithms and Data Structures (in progress)
+* [**RS School**](https://rs.school/index.html): JavaScript/Front-end. Stage 0 (in progress)
+* [**CS50**: video course](https://www.youtube.com/watch?v=NZxALvNlF-8&list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL) (in progress)
 
 ***
 ### Languages:
 
-* English - B2 (Upper-intermediate)
+* English - **B2** (Upper Intermediate)
 * Russian - Native
