@@ -1,5 +1,5 @@
 # Irina Nazarova
-#### *Junior Frontend Developer*
+#### *Junior Front-End Developer*
 
 ***
 ### Contact information:
@@ -11,6 +11,11 @@
 
 ***
 ### Summary
+I went into programming 18 years ago at the institute. It was *Pascal* and *Delphi*. And we use floppy disks. It was *painful*. Therefor I was fascinated by design and I went to study as an interior designer. I worked as a graphic designer and designer at a furniture factory. Design is a very subjective profession. You do not know how to determine that everything is done correctly and works. 
+
+In programming, I am confident in the result. The goal is to create a working product. And I know what's inside it. Design skills allow me to write beautiful code and develop useful apps for people.
+
+For four years I did not approach the laptop and worked as a mountain guide on Elbrus. It's an interesting job, but I missed the feeling of learning something new. Now I'm ready to *dive into* **front-end development** and learn how to *create magic* with the help of letters and numbers.
 
 ***
 ### Skills and Proficiency:
