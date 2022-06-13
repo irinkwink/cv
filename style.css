@@ -25,6 +25,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-padding-top: 25px;
 }
 
 *, *::after, *::before {
@@ -186,7 +187,11 @@ sub {
 }
 
 .section__link:hover {
-    color: #3a4654;
+    color: #fff;
+}
+
+.github-link:hover {
+    color: #fff;
 }
 
 .contacts__list {
@@ -261,6 +266,14 @@ sub {
     padding: 5px;
     background-color: #fff;
     border-radius: 4px;
+}
+
+.footer__link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+    transform: scale(1.1);
 }
 
 
