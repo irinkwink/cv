@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <body>
-        
-    </body>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,148 +10,157 @@
 
 </head>
     <body>
-        <header class="header container">
+        <header class="header">
             <nav class="header__navigation navigation">
-                <ul class="navigation__list">
+                <ul class="navigation__list container">
                     <li class="navigation__item"><a href="#contacts" class="navigation__link">Contacts</a></li>
                     <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
                     <li class="navigation__item"><a href="#summary" class="navigation__link">Summary</a></li>
                     <li class="navigation__item"><a href="#courses" class="navigation__link">Courses</a></li>
                     <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
                     <li class="navigation__item"><a href="#code" class="navigation__link">Code</a></li>
-                    <!-- <li class="navigation__item"><a href="#english" class="navigation__link">English</a></li> -->
                 </ul>
             </nav>
         </header>
+
         <main class="main container">
-            <div class="container__left">
-                <img src="assets/img/photo.jpg" class="main__img" alt="Irina Nazarova photo" width="300" height="400">
-                
-                <section class="main__section contacts">
-                    <h2 class="section__title" id="contacts">contacts</h2>
-                    <ul class="contacts__list">
-                        <li class="contacts__item">
-                            <span>Phone:</span>
-                            <a href="tel:+79187205104" class="contacts__link" type="phone">+7 (918) 720-51-04</a>
-                        </li>
-                        <li class="contacts__item">
-                            <span>E-mail:</span>
-                            <a href="mailto:irinkwink@gmail.com" class="contacts__link">irinkwink@gmail.com</a>
-                        </li>
-                        <li class="contacts__item">
-                            <span>Telegram:</span>
-                            <a href="https://t.me/irinkwink" target="_blank" class="contacts__link">@irinkwink</a>
-                        </li>
-                        <li class="contacts__item">
-                            <span>GitHub:</span>
-                            <a href="https://github.com/irinkwink" target="_blank" class="contacts__link">irinkwink</a>
-                        </li>
-                    </ul>
-                </section>
+            <div class="main__container">
 
-                <section class="main__section skills">
-                    <h2 id="skills" class="section__title">skills</h2>
-                    <ul class="skills__list">
-                        <li class="skills__item">HTML5, CSS3</li>
-                        <li class="skills__item">JavaScript Basics</li>
-                        <li class="skills__item">Git, GitHub</li>
-                        <li class="skills__item">VS Code</li>
-                        <li class="skills__item">Figma</li>
-                    </ul>
-                </section>
+                <div class="container__right">
+                    <section class="main__section section title-desktop">
+                        <h1 class="main__title">Irina Nazarova</h1>
+                        <p class="main__subtitle">Junior Front-End Developer</p>
+                    </section>
 
-                <section class="main__section english">
-                    <h2 id="english" class="section__title">english</h2>
-                    <p><strong>B2</strong> (Upper Intermediate)</p>
-                </section>
-            </div>
+                    <section class="main__section section summary">
+                        <h2 id="summary" class="section__title">summary</h2>
+                        <div class="summary__text">
+                            <p>I went into programming 18 years ago at the institute. It was Pascal and Delphi. And we used floppy disks. It was <em>painful</em>. Therefore I was fascinated by design and I went to study as an interior designer. I worked as a graphic designer and designer at a furniture factory. Design is a very subjective profession. You do not know how to determine that everything is done correctly and works.</p>
+                            <p>In programming I am confident in the result. The goal is to create a working product. And I know what's inside it. Design skills allow me to write beautiful code and develop useful and convenient apps for people.</p>
+                            <p>For four years I did not approach the laptop and worked as a mountain guide on Elbrus. It's an interesting job, but I missed the feeling of learning something new. Now I'm ready to dive into <strong>front-end development</strong> and learn how to create magic with the help of letters and numbers (&SpecialSymbols).</p>
+                        </div>
+                    </section>
 
-            <div class="container__right">
-                <section class="main__section">
-                    <h1 class="main__title">Irina Nazarova</h1>
-                    <p class="main__subtitle">Junior Front-End Developer</p>
-                </section>
-
-                <section class="main__section summary">
-                    <h2 id="summary" class="section__title">summary</h2>
-                    <div class="summary__text">
-                        <p>I went into programming 18 years ago at the institute. It was Pascal and Delphi. And we use floppy disks. It was <em>painful</em>. Therefore I was fascinated by design and I went to study as an interior designer. I worked as a graphic designer and designer at a furniture factory. Design is a very subjective profession. You do not know how to determine that everything is done correctly and works.</p>
-                        <p>In programming I am confident in the result. The goal is to create a working product. And I know what's inside it. Design skills allow me to write beautiful code and develop useful and convenient apps for people.</p>
-                        <p>For four years I did not approach the laptop and worked as a mountain guide on Elbrus. It's an interesting job, but I missed the feeling of learning something new. Now I'm ready to dive into <strong>front-end development</strong> and learn how to create magic with the help of letters and numbers (&SpecialSymbols).</p>
-                    </div>
-                </section>
-
-                <section class="main__section courses">
-                    <h2 id="courses" class="section__title">courses</h2>
-                    <ul class="courses__list">
-                        <li class="courses__item">
-                            <a href="https://htmlacademy.ru/" target="_blank" class="section__link">HTML Academy: </a>
-                            Basic HTML and CSS in 10 days <sub>completed</sub>
-                        </li>
-                        <li class="courses__item">
-                            <a href="https://www.freecodecamp.org/" target="_blank" class="section__link">freeCodeCamp: </a>
-                            <ul class="courses__sublist">
-                                <li>Legacy Responsive Web Design <sub>in progress</sub></li>
-                                <li>JavaScript Algorithms and Data Structures <sub>in progress</sub></li>
-                            </ul>
-                        </li>
-                        <li class="courses__item">
-                            <a href="https://rs.school/index.html" target="_blank" class="section__link">RS School: </a>
-                            JavaScript/Front-end. Stage 0 <sub>in progress</sub>
-                        </li>
-                        <li class="courses__item">
-                            <a href="https://www.youtube.com/watch?v=NZxALvNlF-8&list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL" target="_blank" class="section__link">CS50: </a>
-                            video course <sub>in progress</sub>
-                        </li>
-                    </ul>
-                </section>
-
-                <div class="main__bottom">
-                    <section class="main__section projects">
-                        <h2 id="projects" class="section__title">projects</h2>
-                        <ul class="projects__list">
-                            <li class="projects__item">
-                                <a href="https://irinkwink.github.io/methed_e-trans/" target="_blank" class="section__link">E-trans</a>
-                                <sub>
-                                    <a href="https://github.com/irinkwink/methed_e-trans" target="_blank" class="github__link">github</a>
-                                </sub>
+                    <section class="main__section section courses">
+                        <h2 id="courses" class="section__title">courses</h2>
+                        <ul class="courses__list">
+                            <li class="courses__item">
+                                <a href="https://htmlacademy.ru/" target="_blank" class="section__link link">HTML Academy: </a>
+                                Basic HTML and CSS in&nbsp;10&nbsp;days <sub>completed</sub>
                             </li>
-                            <li class="projects__item">
-                                <a href="https://irinkwink.github.io/methed_batman/" target="_blank" class="section__link">The Batman</a>
-                                <sub>
-                                    <a href="https://github.com/irinkwink/methed_batman" target="_blank" class="github__link">github</a>
-                                </sub>
+                            <li class="courses__item">
+                                <a href="https://www.freecodecamp.org/" target="_blank" class="section__link link">freeCodeCamp: </a>
+                                <ul class="courses__sublist">
+                                    <li>Legacy Responsive Web Design <sub>in&nbsp;progress</sub></li>
+                                    <li>JavaScript Algorithms and Data Structures <sub>in&nbsp;progress</sub></li>
+                                </ul>
+                            </li>
+                            <li class="courses__item">
+                                <a href="https://rs.school/index.html" target="_blank" class="section__link link">RS School: </a>
+                                JavaScript/Front-end. Stage&nbsp;0 <sub>in&nbsp;progress</sub>
+                            </li>
+                            <li class="courses__item">
+                                <a href="https://www.youtube.com/watch?v=NZxALvNlF-8&list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL" target="_blank" class="section__link link">CS50: </a>
+                                video course <sub>in&nbsp;progress</sub>
                             </li>
                         </ul>
                     </section>
 
-                    <section class="main__section code">
-                        <h2 id="code" class="section__title">code</h2>
-                        <p class="code__text"><strong>Even or Odd:</strong> Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</p>
-                        <code>
+                    <div class="main__bottom">
+                        <section class="main__section section projects">
+                            <h2 id="projects" class="section__title">projects</h2>
+                            <ul class="projects__list">
+                                <li class="projects__item">
+                                    <a href="https://irinkwink.github.io/methed_e-trans/" target="_blank" class="section__link link">E-trans</a>
+                                    <sub>
+                                        <a href="https://github.com/irinkwink/methed_e-trans" target="_blank" class="github-link">github</a>
+                                    </sub>
+                                </li>
+                                <li class="projects__item">
+                                    <a href="https://irinkwink.github.io/methed_batman/" target="_blank" class="section__link link">The Batman</a>
+                                    <sub>
+                                        <a href="https://github.com/irinkwink/methed_batman" target="_blank" class="github-link">github</a>
+                                    </sub>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section class="main__section section code">
+                            <h2 id="code" class="section__title">code</h2>
+                            <p class="code__text"><strong>Even or Odd:</strong> Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</p>
 <pre>
-function even_or_odd(number) {
+<code>function even_or_odd(number) {
     return number % 2 ? "Odd" : "Even";
-}
+}</code>
 </pre>
-                        </code>
-                    </section>
-                    
+                            
+                        </section>
+                        
+                    </div>
+
                 </div>
 
+                <div class="container__left">
+                    <section class="main__section title">
+                        <div class="title-mobile">
+                            <h2 class="main__title">Irina Nazarova</h2>
+                            <p class="main__subtitle">Junior Front&#8209;End Developer</p>
+                        </div>
+
+                        <div class="title__photo photo">
+                            <img src="assets/img/photo.jpg" class="photo__img" alt="Irina Nazarova photo" width="300" height="400">
+                        </div>
+                    </section>
+
+                    <section class="main__section section contacts">
+                        <h2 class="section__title" id="contacts">contacts</h2>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <span>E-mail:</span>
+                                <a href="mailto:irinkwink@gmail.com" class="contacts__link link">irinkwink@gmail.com</a>
+                            </li>
+                            <li class="contacts__item">
+                                <span>Telegram:</span>
+                                <a href="https://t.me/irinkwink" target="_blank" class="contacts__link link">@irinkwink</a>
+                            </li>
+                            <li class="contacts__item">
+                                <span>GitHub:</span>
+                                <a href="https://github.com/irinkwink" target="_blank" class="contacts__link link">irinkwink</a>
+                            </li>
+                            <li class="contacts__item">
+                                <span>Discord:</span> irinkwink#9694
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="main__section section skills">
+                        <h2 id="skills" class="section__title">skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML5, CSS3</li>
+                            <li class="skills__item">JavaScript Basics</li>
+                            <li class="skills__item">Git, GitHub</li>
+                            <li class="skills__item">VS Code</li>
+                            <li class="skills__item">Figma</li>
+                        </ul>
+                    </section>
+
+                    <section class="main__section section english">
+                        <h2 id="english" class="section__title">english</h2>
+                        <p><strong>B2</strong> (Upper Intermediate)</p>
+                    </section>
+                </div>
             </div>
         </main>
+
         <footer class="footer container">
-            <a href="https://rs.school/js-stage0/">
-                <img class="footer__logo" src="assets/svg/rs_school_js.svg" alt="rs school logo" width="80">
+            <a class="footer__link link" href="https://github.com/irinkwink" target="_blank">
+                <img class="github-logo" src="assets/svg/github_logo.svg" alt="github logo" width="22" height="22">
+                <span>&#169; 2022 irinkwink</span>
             </a>
 
-            <span class="footer__item">
-                <a class="footer__link" href="https://github.com/irinkwink" target="_blank">
-                    <img src="assets/svg/github_logo.svg" alt="github logo" width="24" height="24">irinkwink  2022
-                </a>
-            </span>
-            
+            <a class="footer__link link" href="https://rs.school/js-stage0/">
+                <img class="footer__logo" src="assets/svg/rs_school_js.svg" alt="rs school logo" width="80">
+            </a>
         </footer>   
     </body>
 </html>
